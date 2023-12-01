@@ -1,0 +1,131 @@
+<!-- Behavioral page: An educational website about Parrots and how to treat them as pets. -->
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+  <title>Parrot Land</title>
+  <script>
+    // https://stackoverflow.com/questions/18826147/javascript-audio-play-on-click
+    function play_sound(url) {
+      new Audio(url).play();
+    }
+  </script>
+</head>
+
+<body>
+  <!-- Navigation bar for Parrot Land -->
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html"><b>Parrot Land</b></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="behavior.html">Parrots Behavior</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="care.html">Parrots Care</a>
+        <li class="nav-item">
+          <a class="nav-link" href="resources.html">Resources</a>
+        </li>
+      </ul>
+      <!-- Button/audio clip of parrot screaming used in the nav-bar -->
+      <button onclick="play_sound('sounds/small_parrot_sound.mp3')" type="button" class="btn btn-outline-info"><img
+          src="images/parrot.gif" alt="Party Parrot" width="30"></button>
+    </div>
+  </nav>
+
+  <!-- Behavioral Content -->
+  <h1>Behavior</h1>
+  <!-- Personality section -->
+  <h4>Feathered Friends Are Unique Individuals Too</h4>
+  <hr class="solid">
+  <p>
+    To put it plainly, parrots are not mere decorations.They are sentient, living beings.
+    One should anticipate them to have distinct personalities, quirks, and preferences,
+    akin to all other creatures.<br><br>
+    One parrot might exhibit these characteristics:
+  </p>
+  <ul class="indent">
+    <li>Reserved and cautious</li>
+    <li>Fond of munching on fruits</li>
+    <li>Enjoys perching in lofty spots</li>
+    <li>Talkative<br></li>
+  </ul>
+  <p>Another parrot might exemplify these tendencies instead:</p>
+  <ul class="indent">
+    <li>Utterly laid-back</li>
+    <li>Fond of napping</li>
+    <li>Assertive towards other parrots</li>
+    <li>Enjoys being held<br></li>
+  </ul>
+  <p>
+    Take heed, fellow enthusiast. Familiarize yourself with your parrots.
+    Respect their individualities and form a bond with them.
+    You'll become a better caregiver (and pal!) by understanding their preferences and dislikes.
+  </p>
+  <!-- Animal behavior section -->
+  <h4>Parrots Are Our Feathered Friends</h4>
+  <hr class="solid">
+  <p>Parrots are parrots for a reason, so we can make a few generalizations about them:</p>
+  <ul class="indent">
+    <li>
+      <em>Parrots are prey animals.</em> This means they startle easily.
+      It's important to avoid sudden loud noises or quick movements around them,
+      or handling them in a way that might make them feel <b>threatened or anxious</b>.
+    </li>
+    <li>
+      <em>Parrots are social animals.</em> That means they need friends.They thrive in the company of their own kind.
+      While you can be a great companion to a parrot, they would probably prefer the company of other parrots if given
+      the choice.
+      Just something to keep in mind if you're considering getting a parrot.
+    </li>
+    <li>
+      <em>Parrots poop everywhere.</em> But don't hold it against them. They are <em>birds</em> after all.
+    </li>
+  </ul>
+  <!-- Resources section -->
+  <h4>Resources</h4>
+  <hr class="solid">
+  <p>
+    Here are some great resources on Parrot behavior:
+  </p>
+  <ul style="padding-bottom: 30px">
+    <li class="indent"><a target="_blank" href="https://en.wikipedia.org/wiki/Parrot#Behaviour">Parrot Behavior,
+        Wikipedia</a></li>
+
+    <li class="indent">Expectations of owning a Indian Ringneck Parrot VS Reality (YouTube Channel:
+      Ricco_the_greenpied_irn):
+      <iframe style="margin-bottom: 20px; margin-top: 20px;" src="https://www.youtube.com/embed/caNHqBM0ctY"
+        height="300" width="600" title="Expectations of owning a Parrot"></iframe>
+    </li>
+
+    <li class="indent">Things to know before getting Indian Ringneck Parrot (YouTube Channel: Denny the Budgie):
+      <iframe style="margin-bottom: 20px; margin-top: 20px;" src="https://www.youtube.com/embed/gR3QgKmZoUk"
+        height="300" width="600" title="Things to know before getting Parrot"></iframe>
+    </li>
+
+    <li class="indent">10 TIPS ON HOW TO CREATE A BOND WITH YOUR BIRD (YouTube Channel: Ricco_the_greenpied_irn):
+      <iframe style="margin-bottom: 20px; margin-top: 20px;" src="https://www.youtube.com/embed/jZkpu2_1iT4"
+        height="300" width="600" title="TIPS ON HOW TO CREATE A BOND WITH YOUR BIRD Parrot"></iframe>
+    </li>
+
+    <li class="indent">How to Pet a Bird that Fears Hands:<br>
+      <iframe style="margin-top: 20px;" src="https://www.youtube.com/embed/GjOohqEQT9Y" height="300" width="600"
+        title="Good Parrot Treatment"></iframe>
+      <iframe src="https://www.youtube.com/embed/O4p1ldEZyL0" height="300" width="600"
+        title="Good Parrot Treatment"></iframe>
+    </li>
+
+  </ul>
+</body>
+
+</html>

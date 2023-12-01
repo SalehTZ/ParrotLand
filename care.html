@@ -1,0 +1,154 @@
+<!-- Care page: An educational website about Parrots and how to treat them as pets. -->
+<!DOCTYPE html>
+
+<head>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+  <title>Parrot Land</title>
+  <script>
+    // https://stackoverflow.com/questions/18826147/javascript-audio-play-on-click
+    function play_sound(url) {
+      new Audio(url).play();
+    }
+  </script>
+</head>
+
+<body>
+  <!-- Navigation bar for Parrot Land -->
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html"><b>Parrot Land</b></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="behavior.html">Parrots Behavior</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="care.html">Parrots Care</a>
+        <li class="nav-item">
+          <a class="nav-link" href="resources.html">Resources</a>
+        </li>
+      </ul>
+      <!-- Button/audio clip of parrot screaming used in the nav-bar -->
+      <button onclick="play_sound('sounds/small_parrot_sound.mp3')" type="button" class="btn btn-outline-info"><img
+          src="images/parrot.gif" alt="Party Parrot" width="30"></button>
+    </div>
+  </nav>
+
+  <!-- Care Content -->
+  <h1>Care</h1>
+  <!-- Care Notes -->
+  <h4>A Few Notes on Care</h4>
+  <hr class="solid">
+  <p>
+    Caring for your feathered friends requires a <em>little bit</em> of effort, <em>not</em> an extensive amount. Here
+    I'll highlight
+    some key points to keep in mind, but then I'll direct you towards additional resources for further research (and as
+    a
+    good, responsible parrot owner, I <em>know</em> you'll want to dive deeper :D).
+  </p>
+  <!-- Cage section -->
+  <h4>Cages</h4>
+  <hr class="solid">
+  <p>
+    Don't be tempted to purchase those tiny, confining cages you often find at pet stores. Even if you have just one
+    parrot, the space provided by such cages is inadequate. Housing a parrot in that sort of space is akin to confining
+    <em>you</em> to a broom closet for the entirety of your existence. Would you enjoy living in a broom closet? Didn't
+    think so.<br><br>
+
+    Parrots require ample room to spread their wings, play, and explore to ensure their happiness. They thrive in
+    environments where they can flit about freely, surrounded by toys and perches, devoid of the confines which clip
+    their natural instincts. Denying them this space is denying them joy.<br><br>
+
+    BAD cage:<br><br>
+    <img src="images/undersized_cage.jpg" alt="An undersized cage." width="450" style="filter: grayscale(100%); border: 2px solid grey;
+               border-radius: 8px;"><br><br>
+
+    <b>Good cages</b> are spacious, with lots of room for flying, climbing, and playing, equipped with hiding places
+    where parrots can retreat if they feel the need for security. These habitats can vary in style and can either be
+    assembled by you or purchased pre-constructed.<br><br>
+
+    Here's an example of a GREAT cage:<br><br>
+    <img src="images/large_bird_cage.jpg" alt="An exemplary parrot cage." width="450" style="border: 2px solid grey;
+               border-radius: 8px;"><br><br>
+
+    And here's a video on setting up an ideal parrot living space that allows for plenty of flight and enrichment
+    (YouTube channel: Flying Fids):<br><br>
+    <iframe style="margin-bottom: 20px" src="https://www.youtube.com/embed/ybmZH6HBrTA" height="300" width="600"
+      title="Parrot cage setup by Flying Fids"></iframe>
+  </p>
+  <!-- Diet section -->
+  <h4>Diet</h4>
+  <hr class="solid">
+  <p>
+    The diet of a parrot is crucial for its health and well-being! Deviating from their nutritional needs, whether by
+    overfeeding or underfeeding, can lead to various illnesses.<br><br>
+    A balanced diet for a parrot includes clean water, specialized parrot pellets, a variety of fresh fruits and
+    vegetables, and some seeds and nuts. High-quality pellets should make up the bulk of their diet, supplemented with
+    fresh produce. Seeds and nuts are high in fat and should be given in moderation – consider them treats rather than
+    main course items. Here is a <a target="_blank"
+      href="https://parrotjunkie.com/blogs/food/list-of-safe-toxic-food-for-parrots">nutrition
+      guide</a> you can refer to. It's generally a good idea to avoid commercial treats and snacks, as they often
+    contain sugar, preservatives, and other ingredients that can be detrimental to your parrot's health.<br><br>
+
+    For advice on proper feeding, check out this video on good diet practices for parrots (YouTube Channel:
+    BirdNerdSophie):<br><br>
+    <iframe style="margin-bottom: 20px" src="https://www.youtube.com/embed/YwSMGWBfmTI" height="300" width="600"
+      title="Healthy parrot diet practices via Avian Avenue"></iframe>
+  </p>
+  <!-- Environment section -->
+  <h4>Social Environment</h4>
+  <hr class="solid">
+  <h5 class="indent" style="margin-top: 30px">Furball Friends for Your Furball</h5>
+  <p>
+    Parrots are highly social creatures. Consequently, they should have avian companions to socialize with. Imagine if
+    you had no other humans to interact with and your only company was a creature from another planet—sounds like the
+    plot of a science fiction novel, doesn't it? So, consider your parrot's needs for social interaction and think about
+    getting them a feathered friend (or a few).<br><br>
+
+    Check out this video of parrots enjoying each other's company and how to introduce and bond two Birds together
+    (YouTube Channel: TheParrotTeacher):
+    <br><br>
+    <iframe src="https://www.youtube.com/embed/0BFsUGcppk8" height="300" width="600"
+      title="Parrots socializing"></iframe>
+  </p>
+
+  <h5 class="indent" style="margin-top: 30px">Feathered Companionship for Your Parrot</h5>
+  <p>
+    And that refers to you. Yes, you can and should be a friend to your parrot. This means acknowledging their
+    individuality and sentience and not mimicking <a target="_blank"
+      href="https://www.youtube.com/watch?v=pxvzEfI0BFU">Elmyra from Tiny Toon Adventures</a> with her tendency to
+    inadvertently
+    squeeze her pets too tightly.<br><br>
+
+    Bonding with your parrot is a gradual process. Only after establishing trust should you progress to cuddling and
+    other forms of physical affection. Initially, you can engage with your parrot by talking to it, offering treats, and
+    gently getting it accustomed to your presence and touch. Discover more about bonding with your parrot in this
+    informative video (YouTube Channel: Ricco_the_greenpied_irn):<br><br>
+    <iframe style="margin-bottom: 20px" src="https://www.youtube.com/embed/jZkpu2_1iT4" height="300" width="600"
+      title="Parrot bonding via Ricco_the_greenpied_irn"></iframe>
+  </p>
+
+  <h4 class="indent" style="margin-top: 30px">Playtime</h4>
+  <hr class="solid">
+  <p style="margin-bottom: 30px">
+    Picture this: you, stuck in a single room forever—sounds like the ultimate bummer, right? Now, let's flap to a
+    brighter beat. Our feathered parrot pals are born for the samba of the skies, not the solitude of a cage! It's time
+    to ruffle some feathers (in a good way) and set the stage for parrot playtime paradise!<br><br> Whether it's a
+    boogie-woogie
+    in the living room, a tango in a tailor-made playpen, or a conga line on the lawn (eyes peeled for those sneaky
+    predator party crashers, though), giving our winged friends some free-fly fun is absolutely non-negotiable. So,
+    crank up the tunes and let them loose for a 10-20 minute daily dance-off—they'll be squawking with joy in no time!
+    <br><br>
+    <iframe src="https://www.youtube.com/embed/uUt_DWeNx28" height="300" width="600"
+      title="Parrot Playtime via Adventures of Roku"></iframe>
+  </p>
+</body>
+
+</html>

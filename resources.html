@@ -1,0 +1,71 @@
+<!-- Resources page: An educational website about Parrots and how to treat them as pets. -->
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+  <title>Parrot Land</title>
+  <script>
+    // https://stackoverflow.com/questions/18826147/javascript-audio-play-on-click
+    function play_sound(url) {
+      new Audio(url).play();
+    }
+  </script>
+</head>
+
+<body>
+  <!-- Navigation bar for Parrot Land -->
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html"><b>Parrot Land</b></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="behavior.html">Parrots Behavior</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="care.html">Parrots Care</a>
+        <li class="nav-item">
+          <a class="nav-link" href="resources.html">Resources</a>
+        </li>
+      </ul>
+      <!-- Button/audio clip of parrot screaming used in the nav-bar -->
+      <button onclick="play_sound('sounds/small_parrot_sound.mp3')" type="button" class="btn btn-outline-info"><img
+          src="images/parrot.gif" alt="Party Parrot" width="30"></button>
+    </div>
+  </nav>
+
+  <!-- Resources Content -->
+  <h1>Resources</h1>
+  <hr class="solid">
+  <img class="indent" src="images/cute_funny_parrots.jpg" alt="A mother parrot and the child." width="350" style="border: 2px solid grey;
+                 border-radius: 8px;">
+  <h6 class="indent" style="margin-top: 15px"><em>"Parrots have around 300 taste buds mainly on the roofs of their
+      mouths, which is quite few compared to a human’s 10,000. Even so, these birds still have favorite foods they
+      absolutely love!"</em><br><br></h6>
+
+  <p>Along with the videos and links on the other pages, you can find more beginner information below:</p>
+  <ul class="indent" style="padding-bottom: 30px">
+    <li><a target="_blank"
+        href="https://theparrotsocietyuk.org/site/index.php/parrot-information/new-to-pet-parrots/a-complete-beginners-guide/">A
+        Complete Beginner's Guide</a></li>
+    <li><a target="_blank" href="https://exoticdirect.co.uk/news/caring-parrot-an-owners-guide/">Parrot care - a guide
+        to caring for your parrot</a></li>
+    <li><a target="_blank" href="https://en.wikipedia.org/wiki/Parrot#Pets">Parrots as Pets, Wikipedia</a>
+    </li>
+    <li><a target="_blank" href="https://www.wikihow.pet/Care-for-a-Parrot">How to Care for a Parrot (with Pictures)</a>
+    </li>
+    <li><a target="_blank" href="https://www.reddit.com/r/parrots/">Also a subreddit about Parrots,
+        Reddit.com/r/parrots</a></li>
+  </ul>
+</body>
+
+</html>
